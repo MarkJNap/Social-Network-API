@@ -1,0 +1,25 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "API for social network with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkJNap/Social-Network-API.git"
+  },
+  "author": "Mark Napolitano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkJNap/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/MarkJNap/Social-Network-API#readme",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2"
+  }
+}
