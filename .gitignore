@@ -1,6 +1,8 @@
 node_modules
 package-lock.json
+.other
 .DS_Store
 .env
 .vscode
-.other
+utils/seed.js
+utils/seedData.js
