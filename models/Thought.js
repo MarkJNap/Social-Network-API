@@ -24,6 +24,7 @@ const reactionSchema = new Schema(
             get: formatDate
         },
     }
+    // TODO: Unsure if I need to include "toJSON"
 )
 
 const thoughtSchema = new Schema(
