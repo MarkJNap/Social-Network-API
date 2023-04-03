@@ -13,8 +13,9 @@ const userSchema = new Schema(
       type: String,
       unique: true,
       required: true,
-      match: [ 
-        /^[\w-\.]+@([\w-]+\.)+[\w-]{2,8}$/, "Please enter a valid email address"
+      match: [
+        /^[\w-\.]+@([\w-]+\.)+[\w-]{2,8}$/,
+        "Please enter a valid email address",
       ],
     },
     thoughts: [
