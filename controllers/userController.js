@@ -1,16 +1,5 @@
 const { User, Thought } = require('../models');
 
-// ** Must haves **
-// Get route for all users ✅
-// Get route for single user (by its _id and populated thought and friend data) ✅
-// Create user route ✅ 
-// Update user route (by its _id) ✅
-// Delete user route (by its _id) ✅
-// ----------------------------------------------------------------
-// TODO: Might be done needs testing
-// **BONUS**: Remove a user's associated thoughts when deleted.
-// ----------------------------------------------------------------
-
 module.exports = {
     // Get route for all users 
     getUsers(req, res) {

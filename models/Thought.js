@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 const formatDate = require("../utils/formatDate")
 
 const reactionSchema = new Schema(
@@ -23,8 +23,13 @@ const reactionSchema = new Schema(
             // Getter method to format timestamp on query
             get: formatDate
         },
+    },
+    {
+        toJSON: {
+            getters: true,
+        },
+        id: false,
     }
-    // TODO: Unsure if I need to include "toJSON"
 )
 
 const thoughtSchema = new Schema(
